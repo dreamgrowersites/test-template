@@ -1,3 +1,9 @@
+require 'bundler/inline'
+gemfile do
+  source 'https://rubygems.org'
+  gem 'typescript-node'
+end
+
 # Activate and configure extensions
 # https://middlemanapp.com/advanced/configuration/#configuring-extensions
 
