@@ -1,15 +1,11 @@
-require 'bundler/inline'
-gemfile do
-  source 'https://rubygems.org'
-  gem 'typescript-node'
-end
-
 # Activate and configure extensions
 # https://middlemanapp.com/advanced/configuration/#configuring-extensions
+ignore /(.*)\.ts/
 
 activate :autoprefixer do |prefix|
   prefix.browsers = "last 2 versions"
 end
+activate :livereload
 
 # Layouts
 # https://middlemanapp.com/basics/layouts/
