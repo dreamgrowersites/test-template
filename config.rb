@@ -1,6 +1,6 @@
 # Activate and configure extensions
 # https://middlemanapp.com/advanced/configuration/#configuring-extensions
-ignore /(.*)\.ts/
+ignore(/(.*)\.ts/)
 
 activate :autoprefixer do |prefix|
   prefix.browsers = "last 2 versions"
