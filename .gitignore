@@ -3,5 +3,6 @@
 .DS_Store
 .sass-cache
 build/
-.idea
-vendor
+.idea/
+.vercel/
+.vercel
