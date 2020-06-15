@@ -1,6 +1,6 @@
 backend:
   name: github
-  repo: 4ong/test-middleman # CHANGE ME
+  repo: dreamgrowersites/test-template # CHANGE ME
   branch: master
   base_url: https://qud.co.ua # CHANGE ME
   auth_endpoint: api/auth
