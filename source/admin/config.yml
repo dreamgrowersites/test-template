@@ -2,12 +2,14 @@ backend:
   name: github # Or gitlab
   repo: dreamgrowersites/test-template # Your username and repository
   branch: master # Branch to use
-  base_url: https://us-central1-oauth-48d09.cloudfunctions.net # The base URL for your Firebase Function
-  auth_endpoint: /oauth/callback # The path to the OAuth endpoint of the function
+  site_url: https://noise.co.ua
+  base_url: https://europe-west3-dreamgrower.cloudfunctions.net # The base URL for your Firebase Function
+  auth_endpoint: cms-auth/auth # The path to the OAuth endpoint of the function
 
 media_folder: source/images/uploads
 public_folder: source/images/
-
+locale: 'ru'
+# logo_url: https://your-site.com/images/logo.svg
 
 collections:
   - name: "blog"
