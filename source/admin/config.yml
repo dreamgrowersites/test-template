@@ -5,9 +5,8 @@ backend:
   base_url: https://noise.co.ua # CHANGE ME
   auth_endpoint: api/auth
 
-publish_mode: editorial_workflow
 media_folder: source/images/uploads
-public_folder: images/uploads
+public_folder: source/images/uploads
 
 
 collections:
