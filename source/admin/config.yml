@@ -1,12 +1,12 @@
 backend:
-  name: github
-  repo: dreamgrowersites/test-template # CHANGE ME
-  branch: master
-  base_url: https://noise.co.ua # CHANGE ME
-  auth_endpoint: api/auth
+  name: github # Or gitlab
+  repo: dreamgrowersites/test-template # Your username and repository
+  branch: master # Branch to use
+  base_url: https://us-central1-oauth-48d09.cloudfunctions.net # The base URL for your Firebase Function
+  auth_endpoint: /oauth/auth # The path to the OAuth endpoint of the function
 
 media_folder: source/images/uploads
-public_folder: source/images/uploads
+public_folder: source/images/
 
 
 collections:
