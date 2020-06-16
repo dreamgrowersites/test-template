@@ -5,8 +5,9 @@ backend:
   base_url: https://europe-west3-dreamgrower.cloudfunctions.net # The base URL for your Firebase Function
   auth_endpoint: cms-auth/auth # The path to the OAuth endpoint of the function
 
+#local_backend: true
 media_folder: source/images/uploads
-public_folder: source/images/t
+public_folder: source/images/
 locale: 'ru'
 publish_mode: editorial_workflow
 site_url: https://noise.co.ua
