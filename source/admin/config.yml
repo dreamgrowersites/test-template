@@ -5,7 +5,7 @@ backend:
   base_url: https://europe-west3-dreamgrower.cloudfunctions.net # The base URL for your Firebase Function
   auth_endpoint: cms-auth/auth # The path to the OAuth endpoint of the function
 
-#local_backend: true
+local_backend: true
 media_folder: source/images/uploads
 public_folder: source/images/
 locale: 'ru'
@@ -14,17 +14,16 @@ site_url: https://noise.co.ua
 logo_url: https://www.pngkit.com/png/detail/233-2333745_black-flag-icon-green-flag-icon-png.png
 show_preview_links: true
 
-
 collections:
   - name: "blog"
-    label: "Blog"
-    folder: "blog"
+    label: "Блог"
+    folder: "блог"
     create: true
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     editor:
       preview: false
     fields:
-      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Тайтл", name: "title", widget: "string" }
       - { label: "Publish Date", name: "date", widget: "datetime" }
       - { label: "Description", name: "description", widget: "string" }
       - { label: "Body", name: "body", widget: "markdown" }
