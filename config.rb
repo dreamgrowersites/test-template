@@ -7,6 +7,9 @@ activate :autoprefixer do |prefix|
 end
 activate :livereload
 activate :directory_indexes
+activate :sprockets do |c|
+  c.imported_asset_path = "javascripts"
+end
 # Layouts
 # https://middlemanapp.com/basics/layouts/
 

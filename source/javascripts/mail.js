@@ -6,7 +6,7 @@ var recaptcha_site_key = ''; // ключ сайта для Recaptcha
 var success_msg = "Ваше сообщение отправлено!"; // сообщение об успешной отправке
 var error_msg = "Ошибка отправки! Попробуйте позже."; // сообщение об ошибке
 var wait_msg = 'Идет отправка...'; // сообщение об отправке (оставить пустым чтоб не показывать)
-var action = $('[src $= mail\\.js]').attr('src').replace('js','php'); // путь к скрипту отправки почты
+var action = '' // $('[src $= mail\\.js]').attr('src').replace('js','php'); // путь к скрипту отправки почты
 
 var selector = 'form', form_ids = [], cur_id = '', success_original = false;
 $(selector).each(function(indx){
